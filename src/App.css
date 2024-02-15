@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+ margin-bottom: 0;
+}
