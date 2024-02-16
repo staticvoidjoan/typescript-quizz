@@ -13,5 +13,49 @@ main {
 h1 {
   font-weight: bold;
   color: black;
- margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  position: relative;
+  color: #555555;
+  background-color: #dddddd;
+  line-height: 1;
+}
+
+.title:after {
+  content: "";
+  width: calc(100% - 16px);
+  height: calc(100% - 14px);
+  position: absolute;
+  left: 8px;
+  top: 7px;
+  border: 1px dashed #777777;
+  padding: 2px 11px;
+  box-sizing: border-box;
+}
+
+.pagination-info {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  position: relative;
+  color: #555555;
+  background-color: #dddddd;
+  line-height: 1;
+}
+
+.pagination-info:after {
+  content: "";
+  width: calc(100% - 16px);
+  height: calc(100% - 14px);
+  position: absolute;
+  left: 8px;
+  top: 7px;
+  border: 1px dashed #777777;
+  padding: 2px 11px;
+  box-sizing: border-box;
 }
