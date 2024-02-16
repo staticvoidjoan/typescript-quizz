@@ -59,3 +59,10 @@ h1 {
   padding: 2px 11px;
   box-sizing: border-box;
 }
+
+.swiper-slide {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}

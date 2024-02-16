@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "./App.css";
+// import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -25,16 +26,15 @@ function App() {
           navigation
         >
           {questions.map((q) => (
-            <SwiperSlide
-              key={q.id}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
+            <SwiperSlide key={q.id} className="swiper-slide">
+   
               <Question question={q.question} answer={q.answer} />
+    
             </SwiperSlide>
           ))}
-        <div className="pagination-info">
-          Question: {currentPage} of {questions.length}
-        </div>
+          <div className="pagination-info">
+            Question: {currentPage} of {questions.length}
+          </div>
         </Swiper>
       </div>
     </main>

@@ -7,80 +7,113 @@ export type QuestionType = {
 export const questions: QuestionType[] = [
   {
     id: 1,
-    question: "What is React?",
-    answer: "A JavaScript library for building UIs.",
+    question: "What is a union type in TypeScript?",
+    answer:
+      "A type that represents values that can be of several different types.",
   },
   {
     id: 2,
-    question: "What is TypeScript?",
-    answer: "A superset of JavaScript adding static types.",
+    question: "Explain the concept of type inference in TypeScript.",
+    answer:
+      "TypeScript's ability to automatically determine the type of a value based on its usage.",
   },
   {
     id: 3,
-    question: "Explain JSX.",
-    answer: "Syntax extension for writing HTML in JavaScript.",
+    question: "How do you declare an array type in TypeScript?",
+    answer: "By using the syntax 'type[]' or 'Array<type>'.",
   },
   {
     id: 4,
-    question: "What are React props?",
-    answer: "Inputs to components, immutable.",
+    question: "What is a literal type in TypeScript?",
+    answer:
+      "A type that represents a specific value, such as 'true', 'false', or a string literal.",
   },
   {
     id: 5,
-    question: "What is the useEffect hook?",
-    answer: "Performs side effects in functional components.",
+    question: "Define the 'any' type in TypeScript.",
+    answer: "A type that represents any value and disables type checking.",
   },
   {
     id: 6,
-    question: "Difference between class & functional components?",
-    answer: "State & lifecycle in class, props in functional.",
+    question: "How do you define optional properties in TypeScript interfaces?",
+    answer: "By adding a '?' after the property name.",
   },
   {
     id: 7,
-    question: "Define a higher-order component (HOC).",
-    answer: "A function that enhances component functionality.",
+    question: "Explain the 'readonly' modifier in TypeScript.",
+    answer: "It makes properties of an object immutable after initialization.",
   },
   {
     id: 8,
-    question: "How do you define interfaces in TypeScript?",
-    answer: "Specifies object structure.",
+    question: "What is the 'never' type in TypeScript?",
+    answer: "A type representing values that never occur.",
   },
   {
     id: 9,
-    question: "What is a type assertion in TypeScript?",
-    answer: "Typecasting, used to override inferred types.",
+    question: "How do you define a type alias in TypeScript?",
+    answer:
+      "By using the 'type' keyword followed by the alias name and type definition.",
   },
   {
     id: 10,
-    question: "What is the keyof keyword in TypeScript?",
-    answer: "Generates union type of object keys.",
+    question: "What is the 'as' keyword used for in TypeScript?",
+    answer:
+      "It performs a type assertion, allowing you to override the type checker.",
   },
   {
     id: 11,
     question:
-      "What is the difference between interface and type in TypeScript?",
-    answer: "Interface is open for extension, type alias is a name for a type.",
+      "Is TypeScript the TRUE meaning of Life",
+    answer:
+      "YES.",
   },
   {
     id: 12,
-    question: "What is a generic type in TypeScript?",
-    answer: "A type that is parameterized over other types.",
+    question: "What is an intersection type in TypeScript?",
+    answer: "A type that combines multiple types into one.",
   },
   {
     id: 13,
-    question: "What is a type guard in TypeScript?",
-    answer: "A runtime check to ensure a type in a conditional block.",
+    question: "How do you define function types in TypeScript?",
+    answer:
+      "By specifying the parameter types and return type of the function.",
   },
   {
     id: 14,
-    question:
-      "What is the key difference between 'null' and 'undefined' in TypeScript?",
+    question: "Explain the 'typeof' operator in TypeScript.",
     answer:
-      "'undefined' represents a variable that has been declared but not assigned, 'null' is assigned but empty.",
+      "It returns the type of a variable, function, or property as a string.",
   },
   {
     id: 15,
-    question: "What is a tuple in TypeScript?",
-    answer: "An array with fixed number of elements, each with specific type.",
+    question: "What is a conditional type in TypeScript?",
+    answer:
+      "A type that depends on a condition expressed as a type relationship.",
+  },
+  {
+    id: 16,
+    question: "How do you create a type assertion in TypeScript?",
+    answer:
+      "By using the 'as' keyword or angle brackets (<>) to specify a type for a variable.",
+  },
+  {
+    id: 17,
+    question: "Explain the 'infer' keyword in TypeScript.",
+    answer: "It allows the inference of types within conditional types.",
+  },
+  {
+    id: 18,
+    question: "What is the 'keyof' operator used for in TypeScript?",
+    answer: "It generates a union type of all keys in an object type.",
+  },
+  {
+    id: 19,
+    question: "Define the 'never' type in TypeScript.",
+    answer: "A type representing values that never occur.",
+  },
+  {
+    id: 20,
+    question: "How do you create a mapped type in TypeScript?",
+    answer: "By using the 'keyof' operator and mapping over existing types.",
   },
 ];
